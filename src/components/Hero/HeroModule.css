@@ -1,0 +1,32 @@
+.hero {
+    background: url(../../assets/slidercoffe.png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 10px;
+}
+
+.hero .presentacion {
+    display: flex;
+    flex-direction: column;
+    /* Para centrar los elementos horizontalmente */
+}
+
+.hero .presentacion h1 {
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+    line-height: 1;
+    /* Elimina el margen superior e inferior */
+}
+
+.hero .presentacion p {
+    color: rgb(172, 172, 172);
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1;
+    /* Elimina el margen superior e inferior */
+}

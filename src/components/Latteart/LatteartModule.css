@@ -1,0 +1,41 @@
+.latte-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.latte-corazon {
+    background: url('../../assets/latteartcorazon.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15rem;
+    border-radius: 15px;
+}
+
+.latte-corazon h2 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+    line-height: 1;
+    /* Elimina el margen superior e inferior */
+}
+
+.latte-arbol {
+    background: url('../../assets/latteartcoffe.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15rem;
+    border-radius: 15px;
+}
+
+.latte-arbol h2 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+    line-height: 1;
+}
