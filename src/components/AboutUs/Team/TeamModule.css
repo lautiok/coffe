@@ -1,0 +1,30 @@
+/* TeamModule.css */
+
+.team-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+}
+
+.card {
+    flex: 1;
+    max-width: 200px;
+    /* Ancho máximo de cada tarjeta */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Bordes redondeados para las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera para las tarjetas */
+}
