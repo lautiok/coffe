@@ -30,3 +30,74 @@
     line-height: 1;
     /* Elimina el margen superior e inferior */
 }
+
+@media screen and (max-width: 1280px) {
+
+    .heroUS {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+}
+
+@media screen and (max-width: 884px) {
+
+    .heroUS {
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .heroUS {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .heroUS {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .heroUS {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 3rem;
+    }
+
+    .heroUS .presentacion h1 {
+        font-size: 3rem;
+    }
+
+    .heroUS .presentacion p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .heroUS {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 3rem;
+    }
+
+    .heroUS .presentacion h1 {
+        font-size: 2rem;
+    }
+
+    .heroUS .presentacion p {
+        font-size: 1rem;
+    }
+
+}

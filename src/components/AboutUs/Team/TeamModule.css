@@ -28,3 +28,23 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra ligera para las tarjetas */
 }
+
+@media screen and (max-width: 884px) {
+    .team-card {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .team-card {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .team-card {
+        flex-direction: column;
+    }
+}
