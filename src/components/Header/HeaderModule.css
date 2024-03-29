@@ -37,3 +37,18 @@ header .redes a {
     font-size: 1.4rem;
     color: #000000;
 }
+
+@media screen and (max-width: 430px) {
+    header .logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    header nav ul li {
+        font-size: 1rem;
+    }
+
+    header .redes a {
+        display: none;
+    }
+}

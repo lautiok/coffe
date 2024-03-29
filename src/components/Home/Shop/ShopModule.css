@@ -1,5 +1,4 @@
 .shop {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,4 +62,50 @@
     color: rgb(172, 172, 172);
     font-size: 2rem;
     margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .shop-container-usa {
+        padding: 6rem;
+    }
+
+    .shop-container-england {
+        padding: 6rem;
+    }
+}
+
+
+@media screen and (max-width: 884px) {
+
+
+    .shop-container-usa {
+        padding: 2rem;
+    }
+
+    .shop-container-england {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .shop-module {
+        flex-direction: column;
+    }
+
+    .shop-container-usa {
+        padding: 6rem;
+        margin-right: 0;
+        border-radius: 0;
+        margin-top: 2rem;
+
+    }
+
+    .shop-container-england {
+        padding: 6rem;
+        border-radius: 0;
+        margin-top: 1rem;
+
+    }
+
 }
