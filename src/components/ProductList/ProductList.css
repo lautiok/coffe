@@ -1,0 +1,38 @@
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.product-item h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item p {
+    font-size: 0.9em;
+    /* Ajusta el tamaño de la fuente del párrafo */
+}
+
+.product-item ul {
+    padding-left: 20px;
+}
+
+.product-item li {
+    list-style-type: disc;
+    font-size: 0.9em;
+    /* Ajusta el tamaño de la fuente de los elementos de la lista */
+}

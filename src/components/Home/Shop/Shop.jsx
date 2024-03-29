@@ -1,6 +1,6 @@
 import React from 'react'
 import './ShopModule.css'
-import separador from '../../assets/logo.png'
+import separador from '../../../assets/logo.png'
 
 export const Shop = () => {
     return (
