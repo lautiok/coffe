@@ -36,3 +36,9 @@
     font-size: 0.9em;
     /* Ajusta el tamaño de la fuente de los elementos de la lista */
 }
+
+@media screen and (max-width: 430px) {
+    .products-list {
+        flex-direction: column;
+    }
+}
