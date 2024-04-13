@@ -2,9 +2,13 @@ import React from 'react'
 import './AboutUsModule.css'
 import { HeroUS } from './HeroAU/HeroUS'
 import { Team } from './Team/Team'
+import { Helmet } from 'react-helmet'
 export const AboutUs = () => {
     return (
         <main>
+            <Helmet>
+                <title>About Us</title>
+            </Helmet>
             <HeroUS />
             <div className='info-us'>
                 <h1>About Us</h1>

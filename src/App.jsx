@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
-import { Products } from './components/Products/Products'
-import { Home } from './components/Home/home'
-import { AboutUs } from './components/AboutUs/AboutUs'
-import { Newsletter } from './components/Newsletter/Newsletter'
+import { Products } from './pages/Products/Products'
+import { Home } from './pages/Home/home'
+import { AboutUs } from './pages/AboutUs/AboutUs'
+import { Newsletter } from './pages/Newsletter/Newsletter'
 
 function App() {
 
